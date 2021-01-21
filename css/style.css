@@ -1,0 +1,49 @@
+body {
+  background: #e39d9d;
+  padding: 0 1rem 1rem 1rem;
+  max-width: 500px;
+  margin: 100px auto 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #f3f3f3;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#pomodoro-main {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+}
+
+.pomodoro-timer {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  font-size: 3rem;
+  align-items: center;
+}
+
+#pomodoro-clock-controller {
+  padding: 25px;
+}
+
+#pomodoro-start, #pomodoro-stop {
+  outline: none;
+  border: none;
+  background-color: #e39d9d;
+}
+
+#input-work-duration, #input-break-duration {
+  border-radius: 15px;
+  padding: 10px;
+  border-style: none;
+}
+
+.pomodoro-work-input, .pomodoro-break-input {
+  padding: 15px;
+}
+
+

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,  
+  "name": "My-Counter", 
+  "version": "1.0", 
+  "description": "This is a simple pomodoro clock", 
+  "browser_action": { 
+    "default_icon": "./icon.png",  
+    "default_popup": "./popup.html" 
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  }
+}

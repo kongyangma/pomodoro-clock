@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.1.0/progressbar.js"></script>
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Pomodoro Clock</title>
+
+</head>
+
+<body>
+  <div id="pomodoro-clock">
+    <div id="pomodoro-main">
+      <h3>Pomodoro Clock</h3>
+      <div class="pomodoro-timer"></div>
+    </div>
+  </div>
+
+
+  <div id="pomodoro-info">
+    <div id="pomodoro-clock-controller">
+      <button id="pomodoro-start">
+        <i class="fa fa-play fa-2x" style ="color: #FFFFFF" id="play-icon"></i>
+        <i class="fa fa-pause fa-2x hidden" style ="color: #FFFFFF" id="pause-icon"></i>
+      </button>
+      <button id="pomodoro-stop" class="hidden">
+        <i class="fa fa-stop fa-2x" style ="color: #FFFFFF" id="stop-icon"></i>
+      </button>
+    </div>
+  </div>
+
+  <div id="pomodoro-clock-actions">
+    <div class="pomodoro-work-input">
+      <label>Work Duration: </label>
+      <input name="input-work-duration" id="input-work-duration" type="number" />
+    </div>
+    <div class="pomodoro-break-input">
+      <label>Break Duration: </label>
+      <input name="input-break-duration" id="input-break-duration" type="number" />
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+
+</html>
