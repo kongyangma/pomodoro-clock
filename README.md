@@ -4,6 +4,9 @@
 
 A productivity app designed for your work and study. It is a science-based app that will motivate you to stay focused and get things done.
 
+## Demo Link
+
+Click here to view the [Demo](https://kongyangma.github.io/pomodoro-clock/)
 
 ## Tech Stack
 
